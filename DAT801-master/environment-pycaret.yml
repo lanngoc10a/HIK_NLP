@@ -1,0 +1,19 @@
+name: dat801-pycaret
+dependencies:
+- python = 3.8
+- pip
+- ipython
+- ipykernel
+- ipywidgets
+- jupyter
+- conda-forge::jupyter_contrib_nbextensions
+- conda-forge::jupyterlab
+- git
+- numpy
+- matplotlib
+- pandas
+- pip:
+  - pip >= 20.0
+  - pycaret[full]
+
+  

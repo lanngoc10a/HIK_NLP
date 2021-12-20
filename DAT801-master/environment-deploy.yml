@@ -1,0 +1,25 @@
+name: dat801-deployment
+dependencies:
+- python = 3.8
+- pip
+- ipython
+- ipykernel
+- ipywidgets
+- jupyter
+- conda-forge::jupyter_contrib_nbextensions
+- conda-forge::jupyterlab
+- numpy
+- matplotlib
+- pandas
+- conda-forge::voila
+- conda-forge::bqplot
+- pip:
+  - pip >= 20.0
+  - pycaret[full]
+  - pandas-profiling
+  - openpyxl
+  - xlrd
+  - Flask
+  - flask_bootstrap
+  - flask_wtf
+  

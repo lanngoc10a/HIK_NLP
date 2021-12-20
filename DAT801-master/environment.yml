@@ -1,0 +1,27 @@
+name: dat801
+dependencies:
+- python >= 3.8.0
+- pip
+- ipython
+- ipykernel
+- ipywidgets
+- jupyter
+- conda-forge::jupyter_contrib_nbextensions
+- conda-forge::jupyterlab
+- git
+- numpy
+- matplotlib
+- pandas
+- scikit-learn >= 0.20
+- scipy
+- seaborn
+- conda-forge::category_encoders
+- conda-forge::shap
+- conda-forge::voila
+#- conda-forge::pycaret
+- pip:
+  - pip >= 20.0
+  - kaggle
+  - pandas-profiling
+  - xlrd
+  
